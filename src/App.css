@@ -21,7 +21,7 @@
 
 .header-image {
   display: block;
-  width: 105.5%;
+  width: 110%;
   height: 100%;
   margin: 0; /* Ensure no margins */
   padding: 0; /* Ensure no padding */
@@ -61,14 +61,14 @@ main  {
   padding-bottom: 50px; /* Increase the padding-bottom to add more space at the bottom */
   background-color:white;
   height: 400vh;
-  width: 102.5%;;
+  width: 107%;
 }
 
 .main-content {
   display: flex;
   align-items: flex-start; /* Align items to the top */
   justify-content: space-between; /* Space between the sections */
-
+ width: fit-content;
 
   
 }
@@ -89,8 +89,7 @@ main  {
 
 .Right-image{
   position: relative;
-  position: relative; /* Set the position to relative */
-  left: 169vh; /* Adjust the value as needed to move it to the left */
+  left: 189vh; /* Adjust the value as needed to move it to the left */
   top: 210px; /* Adjust the value as needed to move it to the top */
   height: 350px;
   width: 150px;
@@ -383,7 +382,7 @@ width: fit-content;
 .img-scr4{
   position: relative;
   top: 60vh;
-  left: 59.3vh;
+  left: 55vh;
 }
 
 /* heading bottom */
@@ -397,12 +396,14 @@ width: fit-content;
   position: relative;
   top: 66vh;
   left: 3vh;
+  width: fit-content;
 
 }
 .heading-bottom2{
   position: relative;
   top: 60vh;
   left: 67vh;
+  width: fit-content;
 
 }
 
@@ -410,11 +411,13 @@ width: fit-content;
   position: relative;
   top: 12vh;
   left: 141vh;
+  width: fit-content;
 
 }
 .heading-bottom4{
   position: relative;
   top: -2vh;
-  left: 202vh;
+  left: 198vh;
+  width: fit-content;
 
 }
