@@ -1,0 +1,420 @@
+/* heading  */
+
+
+
+
+
+.head {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100vw; /* Set to 100% of the viewport width */
+  height: 100%;
+  margin: 0; /* Ensure no margins */
+  padding: 0; /* Ensure no padding */
+  overflow: hidden; /* Prevent any overflow */
+}
+
+.header-image {
+  display: block;
+  width: 105.5%;
+  height: 100%;
+  margin: 0; /* Ensure no margins */
+  padding: 0; /* Ensure no padding */
+}
+
+
+
+
+.header-heading {
+
+  font-size: 40px; /* Adjust font size as needed */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  align-self: center; /* Center the heading vertically */
+  position: absolute; /* Position heading absolutely */
+  top: 55%; /* Center heading vertically within header */
+  left: 90px; /* Adjust distance from the left edge */
+  padding: 10px; /* Optional: padding for the heading */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+
+
+/* main section */
+
+
+
+
+
+/* .main-body{
+
+} */
+
+main  {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 50px; /* Increase the padding-bottom to add more space at the bottom */
+  background-color:white;
+  height: 400vh;
+  width: 102.5%;;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between; /* Space between the sections */
+
+
+  
+}
+
+
+
+/* Styling for the left section */
+.left-section {
+  position: relative;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  top: 50px; /* Center heading vertically within header */
+  left: 0px; /* Adjust distance from the left edge */
+  
+}
+
+.Right-image{
+  position: relative;
+  position: relative; /* Set the position to relative */
+  left: 169vh; /* Adjust the value as needed to move it to the left */
+  top: 210px; /* Adjust the value as needed to move it to the top */
+  height: 350px;
+  width: 150px;
+ 
+
+}
+
+
+.main-image {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+ 
+  transform: translateY(8vh); /* Move the image down by 20 pixels */
+
+
+  
+}
+
+.middle-section{
+  position: relative;
+  display: flex;
+
+  
+  
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  left: -25vh; /* Adjust distance from the left edge */
+
+}
+
+.image-heading {
+  font-size: 25px; /* Adjust font size as needed */
+  margin: 0;
+  color: #C2AB80;
+
+
+}
+
+.para-heading{
+  color: #124566;
+  font-size: 14px;
+  line-height: 1.5; /* Adjust as needed */
+  white-space: nowrap; /* Prevents the text from wrapping to multiple lines */
+
+
+}
+
+/* Styling for the right section */
+.right-section {
+  font-size: 2px;
+  max-width: 600px; /* Adjust the max width as needed */
+  position: relative; /* Ensure the position is relative or absolute */
+  left: -35vh; /* Adjust the value to move it slightly to the left */
+  top: 7vh;
+}
+
+.right-heading {
+  font-size: 25px; /* Adjust font size as needed */
+  margin: 0 0 10px 0; /* Space below the heading */
+  color: #124566;
+}
+
+.right-paragraph {
+  font-size: 14px; /* Adjust font size as needed */
+  margin: 0;
+  color: #124566;
+  white-space: nowrap; /* Prevents the text from wrapping to multiple lines */
+
+}
+
+.prince-heading{
+  color: #124566;
+  font-size: 16px; /* Adjust font size as needed */
+  margin: 0;
+  white-space: nowrap; /* Prevents the text from wrapping to multiple lines */
+
+}
+
+.main-element{
+  width: 100px; /* Adjust the width as needed */
+  height: 350px; /* Maintain aspect ratio */
+  position: relative; /* Set the position to relative */
+  left: -20px; /* Adjust the value as needed to move it to the left */
+  top: -70px; /* Adjust the value as needed to move it to the top */
+ 
+}
+
+section {
+  width: 100%; /* Set the width to 100% of its containing element */
+  height: 500px; /* Set the height to 500 pixels, adjust as needed */
+}
+
+.para-content{
+  position: relative;
+    font-size:5px;
+  position: relative; /* Ensure the position is relative or absolute */
+  left: -2vh; /* Adjust the value as needed to move it to the left */
+  bottom: -80px; /* Adjust the value as needed to move it up from the bottom */
+}
+
+
+
+
+
+
+
+.description {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  width: 80%; /* Ensure it takes the full width */
+  margin: 5px 0; /* Adjust the margin as needed */
+  font-size: 15px;
+  height: 42%;
+  left: 250px;
+  top: 10vh;
+}
+
+
+
+.margin{
+
+  margin-left: -50px;
+  margin-top: 40px;
+}
+
+
+.para1 {
+  grid-column: 1; /* First column, first row */
+  grid-row: 1;
+}
+
+.para2 {
+  grid-column: 2; /* Second column, first row */
+  grid-row: 1;
+}
+
+.para3 {
+  grid-column: 1; /* First column, second row */
+  grid-row: 2;
+}
+
+.para4 {
+  grid-column: 2; /* Second column, second row */
+  grid-row: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* foot */
+
+.foot{
+  background-color:#F5F4F4;
+  position: relative;
+  height: 40vh;
+  top: 80vh;
+  width: auto;
+ 
+  
+}
+
+.last-para{
+  background-color:white;
+  position: relative;
+   width: fit-content;
+  top:40Vh;
+  left: 11vh;
+}
+
+.logo-second{
+  position: relative; /* Ensure the position is relative or absolute */
+  left: 190vh; /* Adjust the value as needed to move it to the left */
+  bottom: 140vh; /* Adjust the value as needed to move it up from the bottom */
+  height: 50vh;
+  
+
+}
+
+.footer-content{
+
+  position: relative;
+    /* font-size:5px; */
+  position: relative; /* Ensure the position is relative or absolute */
+  left: 12vh; /* Adjust the value as needed to move it to the left */
+  bottom: -10px; /* Adjust the value as needed to move it up from the bottom */
+  width: fit-content;
+
+}
+
+.bottom-image{
+  position: relative;
+  /* font-size:5px; */
+position: relative; /* Ensure the position is relative or absolute */
+width: fit-content;
+
+
+}
+
+.btm-image{
+  position: relative;
+  left: 150vh; /* Adjust the value as needed to move it to the left */
+  top: 20vh; /* Adjust the value as needed to move it up from the bottom */
+  width: 350px;
+  
+}
+
+
+
+/*  chevron */
+
+.che-rt{
+  position: relative;
+  top: 22vh;
+  left: 160vh;
+
+}
+
+
+.che-lft{
+  position: relative;
+  top: 22vh;
+  left: 145vh;
+
+
+}
+
+/* line  */
+.li-tp-lft{
+  position: relative;
+  top: -29vh;
+  left: 1vh;
+
+}
+
+.li-tp-rt{
+  position: relative;
+  top: -73vh;
+  left: 1vh;
+
+}
+
+.li-btm-lft{
+  position: relative;
+  top: -73vh;
+  left: 1vh;
+
+}
+
+.li-btm-rt{
+  position: relative;
+  top: -29vh;
+  left: 1vh;
+
+}
+
+
+
+/* bottom-images */
+.images-bottom{
+  position: relative;
+  width: fit-content;
+}
+
+
+.img-scr1{
+  position: relative;
+  top: 60vh;
+  left: 3vh;
+}
+.img-scr2{
+  position: relative;
+  top: 74vh;
+  left: 24vh;
+}
+.img-scr3{
+  position: relative;
+  top: 60vh;
+  left: 41vh;
+}
+.img-scr4{
+  position: relative;
+  top: 60vh;
+  left: 59.3vh;
+}
+
+/* heading bottom */
+
+.heading-bottom{
+  position: relative;
+  width: fit-content;
+}
+
+.heading-bottom1{
+  position: relative;
+  top: 66vh;
+  left: 3vh;
+
+}
+.heading-bottom2{
+  position: relative;
+  top: 60vh;
+  left: 67vh;
+
+}
+
+.heading-bottom3{
+  position: relative;
+  top: 12vh;
+  left: 141vh;
+
+}
+.heading-bottom4{
+  position: relative;
+  top: -2vh;
+  left: 202vh;
+
+}
